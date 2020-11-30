@@ -1,0 +1,150 @@
+
+.menu-principal{
+    display: flex;
+    flex-flow: row nowrap;
+    width:30%;
+    justify-content: space-between;
+}
+.menu-principal__item{
+    list-style-type: none;
+}
+.menu-principal__item a{
+    color: black;
+}
+.menu-principal__item a:hover{
+    color: gray;
+}
+.menu-principal__item a:visited{
+    color: darkblue;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    height: 400px;
+    width:1300px;
+}
+
+
+.titulo1{
+    color: rgb(1, 51, 1);
+    margin:30px;  
+    text-transform: uppercase;
+    font-size: xx-large;  
+    text-align: center;
+}
+.titulo2{
+    color: black;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+
+.servicios{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.servicios__bloque{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.servicios__bloque div{
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+.servicios__bloque img {
+    height: 200px;
+    width: 400px;  
+}
+.servicios__bloque p{
+    text-align: justify;
+    height: 65px;
+    width: 400px;   
+}
+
+
+.noticias{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.noticias__bloque{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+.noticias__sub{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+.noticias__sub__item{
+    display: flex;
+    justify-content: space-around;  
+    flex-flow: row nowrap;
+    border-style: groove;
+}
+.noticias__sub__item img{
+    height: 160px;
+    width: 160px;
+    padding: 32px   
+}
+.noticias__sub__item div{
+    padding: 15px;
+}
+.noticias__sub__item p{
+    text-align: justify; 
+    width: 400px;
+}
+
+
+.equipo{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.equipo__bloque{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.equipo__bloque__integrante{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.equipo__bloque__integrante img{
+    border-radius: 50%;
+    width: 175px;
+}
+.equipo__bloque__integrante__info{
+    display: flex;
+    flex-flow: column;
+    margin: 30px;
+}
+
+
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.footer__bloque1{
+    display: flex;
+    flex-flow:column nowrap;
+    flex-grow: 3;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer__bloque2{
+    display: flex;
+    flex-flow:column nowrap;
+    flex-grow: 4;
+}
+.footer__bloque2 ul{
+    margin: 0;
+}
