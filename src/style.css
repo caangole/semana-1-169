@@ -102,12 +102,13 @@
 
 .servicios__bloque{
     width: 110%;
-    min-height: 765px;
+    /*min-height: 765px;*/
     display: flex;
     flex-flow: row nowrap;
     /*grid-template-rows: repeat(1, auto);*/
     /*grid-gap: 20px;*/
     padding-top: 30px;
+    padding-bottom: 50px;
     position: relative;
     box-sizing: border-box;
     text-align: center;
@@ -124,6 +125,9 @@
     color: #0f0f0f;
     background-color: #a6ebe5de;
     margin-right: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .servicios__bloque img {
     height: 200px;
