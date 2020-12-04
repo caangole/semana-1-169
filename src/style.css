@@ -60,7 +60,7 @@
 
 
 .titulo1{
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     /*margin:30px;  */
     /*text-transform: uppercase;*/
     font-size: 4.5rem;
@@ -71,10 +71,11 @@
 }
 .titulo2{
     color: #ffffff;
-    text-transform: capitalize;
     font-style: bold;
+    text-align: center;
     font-family: Raleway,sans-serif;
-    font-size: 3rem;
+    font-size: 2em;
+    width: 100%;
 }
 
 
@@ -153,7 +154,8 @@
     display: flex;
     flex-flow: column nowrap;
     /*margin-top: 30px;*/
-    
+    background-image: url("pictures/topic-analytics.jpg");
+    background-size: cover;
 }
 .noticias__bloque{
     position: relative;
@@ -181,6 +183,7 @@
     width: 80%;
     margin-top: 10px;
     margin-right: 10px;
+    
 }
 .noticias__sub__item img{
     position: relative;
@@ -188,33 +191,57 @@
     width: 20%;
     margin-left: 5%;
     margin-top: 5%;   
+    
 }
 .noticias__sub__item div{
     padding: 0%;
+    text-align: center;
     position: relative;
-    display: flex;
-    border: 10px;
-    border-style: solid;
+    display: table-cell;
+    height: 100px;
     /*padding-left: 10%;*/
     /**/
-    /*justify-content: center;*/
-    /*justify-items: center;*/
+    justify-content: center;
+    justify-items: center;
+
+}
+.noticias__sub__item div h2{
+    text-align: center;
+    padding-top: 5%;    
+    width: 100%;  
+    color: #ffffff;
+    font-style: bold;
+    text-align: center;
+    font-family: Raleway,sans-serif;
+    font-size: 2em;
 }
 .noticias__sub__item p{
-    width: 100%;
-    display: flex;
+    width: 80%;
+    padding-left: 10%;
     min-width: 80%;
     margin-top: 5px;
     justify-items: center;
-    align-items: center;
-    border: 10px;
-    border-style: solid;
+    align-items: center; 
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+    font-family: Raleway,sans-serif;
+    font-size: 1.5em;
 }
-
+.noticias__sub__item a{
+    width: 100%;
+    min-width: 80%;
+    justify-items: center;
+    align-items: center;
+    color: #f302bf;
+    font-size: 1.5em;
+}
 
 .equipo{
     display: flex;
     flex-flow: column nowrap;
+    background-image: url("pictures/contact_us.jpg");
+    background-size: cover; 
 }
 .equipo__bloque{
     display: flex;
@@ -226,6 +253,7 @@
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
+    background-color: #0f93eb;
 }
 .equipo__bloque__integrante img{
     border-radius: 50%;
@@ -235,6 +263,11 @@
     display: flex;
     flex-flow: column;
     margin: 30px;
+}
+.equipo__bloque__integrante__info li{
+    color: #ffffff;
+    font-size: 1.2em;
+
 }
 
 
@@ -274,6 +307,7 @@
     left: 0;
     max-height: 10000px;
     vertical-align: center;
+    z-index: 5;
 }
 
 .column {
